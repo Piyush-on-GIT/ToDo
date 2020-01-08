@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A software where users can make a todo list and a schedule for themselves.",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^7.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush-on-GIT/ToDo.git"
+  },
+  "author": "Piyush Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Piyush-on-GIT/ToDo/issues"
+  },
+  "homepage": "https://github.com/Piyush-on-GIT/ToDo#readme"
+}

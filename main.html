@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> To Do</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main_page.js"></script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <span id="name1"></span>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Schedule</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <a href="signin.html" style="text-decoration: none;">
+          <input type="button" id="out" value="LOG OUT">
+      </a>
+      <center>
+        <h1>Welcome, </h1>
+        <div id="name"></div>
+        <p></p>
+        <span id="save">Save your time by preparing a schedule for yourself</span>
+      </center>
+      <input type="button" id="schedule" value="Make a schedule">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="button" id="todo" value="Make a ToDo List"> 
+      <style>
+          h1
+          {
+              display: inline;
+          }
+          #name
+          {
+              display: inline;
+          }
+      </style>
+      <script>
+            var url = document.location.href,
+              params = url.split('?')[1].split('&'),
+              data = {}, tmp;
+            for (var i = 0, l = params.length; i < l; i++)
+            {
+                tmp = params[i].split('=');
+                data[tmp[0]] = tmp[1];
+            }
+            document.getElementById('name').innerHTML = data.name;
+            document.getElementById('name1').innerHTML = "Hello, " + data.name;
+      </script>
+  </body>
+  </html>
