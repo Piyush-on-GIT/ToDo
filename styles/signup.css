@@ -1,0 +1,86 @@
+body
+{
+    font-family: Consolas;
+    font-size: 20px;
+    background-image: url("signin.jpg");
+}
+#main
+{
+    margin-top: 10%;
+    background-color: #444444;
+    width: 400px;
+    height: 450px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px black;
+    border-width: 3px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#nm, #dob, #pass, #rpass
+{
+    margin-top: 15%;
+    background-color: #444444;
+    border: none;
+    border-bottom: 1.9px solid #757575;
+    font-family: Consolas;
+    transition: 0.3s;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+#dob
+{
+    margin-top: 7%;
+    width: 240px;
+}
+#pass
+{
+    margin-top: 7%;
+}
+#rpass
+{
+    margin-top: 7%;
+}
+#nm:focus, #dob:focus, #pass:focus, #rpass:focus, #up:focus
+{
+    outline: none;
+    border-bottom: 1.9px solid rgb(24, 250, 30);
+
+}
+#up
+{
+    font-size: 20px;
+    font-family: Consolas;
+    background-color: rgb(18, 185, 23);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    transition: width 1ms;
+}
+#up:hover
+{
+    background-color: rgb(18, 250, 23);
+    font-size: 22px;
+    width: 155px;
+    height: 45px;
+    border-radius: 25px;
+}
+#back
+{
+    height: 30px;
+    width: 90px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    transition: width 1ms;
+    background-color: #444444;
+    color: white;
+    font-family: Consolas;
+}
+#back:hover
+{
+    font-size: 17px;
+    height: 35px;
+    width: 97px;
+}

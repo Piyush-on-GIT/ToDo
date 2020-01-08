@@ -1,0 +1,85 @@
+body
+{
+    font-family: Consolas;
+    font-size: 20px;
+    /* background-color: blueviolet; */
+    /* background-image: url("E:\App Development\ToDo\assets\signin.jpg"); */
+    background-image: url("signin.jpg");
+}
+#main
+{
+    margin-top: 10%;
+    background-color: #444444;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 0 10px black;
+    border-width: 3px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#unm, #upass
+{
+    font-family: Consolas;
+    width: 200px;
+    height: 20px;
+    color: orangered;
+    font-size: 20px;
+    border: none;
+    background-color: #444444;
+    border-bottom: 2px solid #757575;
+}
+#unm
+{
+    margin-top: 150px;
+}
+#upass
+{
+   margin-top: 25px; 
+}
+#in
+{
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: Consolas;
+    background-color: rgb(18, 185, 23);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    transition: width 1ms;
+}
+#back
+{
+    height: 30px;
+    width: 90px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    transition: width 1ms;
+    background-color: #444444;
+    color: white;
+    font-family: Consolas;
+}
+#unm:focus, #upass:focus
+{
+    outline: none;
+    border-bottom-color: rgb(24, 250, 30);
+}
+#in:hover
+{
+    background-color: rgb(18, 250, 23);
+    font-size: 22px;
+    width: 155px;
+    height: 45px;
+    border-radius: 25px;
+}
+#in:focus, #back:focus, #up:focus
+{
+    outline: none;
+}
+#back:hover
+{
+    font-size: 17px;
+    height: 35px;
+    width: 97px;
+}

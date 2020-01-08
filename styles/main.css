@@ -1,0 +1,108 @@
+body
+{
+    font-family: Consolas;
+    background-image: url("main.jpg");
+    color: aliceblue;
+}
+#name
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#out
+{
+    border-radius: 20px;
+    background-color: rgba(23, 214, 33, 0.767);
+    font-family: Consolas;
+    color: black;
+    font-size: 17px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    transition: 1ms;
+    margin-left: 91%;
+}
+#out:focus
+{
+    outline: none;
+}
+#out:hover
+{
+    background-color: rgba(38, 248, 49, 0.966);
+    width: 95px;
+    height: 35px;
+    border-radius: 25px;
+    font-size: 20.2px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#name1
+{
+  margin-left: 25px;
+  font-size: 20px;
+}
+#save
+{
+  font-size: 19px;
+}
+#schedule, #todo
+{
+  border: none;
+  background-color: #ffd725;
+  font-family: Consolas, sans-serif;
+  /* border-radius: 50px; */
+  width: 160px;
+  height: 100px;
+  font-weight: bolder;
+  color: crimson;
+}
+#schedule:focus, #todo:focus
+{
+  outline: none;
+}
+#schedule
+{
+  margin-left: 38%;
+  margin-top: 10%;
+}
+
+#todo
+{
+  margin-top: 10%;
+}
