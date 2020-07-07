@@ -4,7 +4,7 @@
   "description": "A software where users can make a todo list and a schedule for themselves.",
   "main": "main.js",
   "dependencies": {
-    "electron": "^7.1.7"
+    "electron": "^7.2.4"
   },
   "devDependencies": {},
   "scripts": {
